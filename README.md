@@ -31,3 +31,26 @@ Clone the repository and navigate to the project directory:
 ```bash
 git clone <repository-url>
 cd Lexisg-frontend-intern-test
+
+## Live Demo
+
+[Open the live Lexi Legal Assistant](https://lexisg-frontend-intern-test-beta.vercel.app/)
+
+## Citation Linking
+
+The application uses a simulated API response containing the legal answer and citation details. The citation displays the source document name and links directly to the original judgment PDF. Clicking the citation opens the PDF in a new browser tab.
+
+## Assignment Flow
+
+1. Enter a legal question in the input panel.
+2. Click Submit to simulate the API request.
+3. A loading state is displayed while the request is being processed.
+4. The simulated legal answer is displayed.
+5. The answer includes a citation to the relevant judgment.
+6. Clicking the citation opens the original PDF in a new tab.
+
+## How to Run
+
+```bash
+npm install
+npm start
